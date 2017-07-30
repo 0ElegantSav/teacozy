@@ -9,7 +9,20 @@
 }
 
 header{
+  display: inline-block;
   border-bottom:1px solid seashell;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+.logo{
+  margin-left: 10px;
+}
+
+nav{
+  text-align: right;
+  /*flex-grow: 1;*/
 }
 
 /*MISSION*/
@@ -21,7 +34,7 @@ header{
   align-items: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-position: center;
-  margin: 0 auto; /*Made background image center with site*/
+  margin: 0 auto;; /*Made background image center with site*/
   width:1200px;
   height:700px;
 }
@@ -66,7 +79,8 @@ header{
 
 /*LOCATIONS*/
 
-.Third-container{
+/*.Third-container{*/
+.location{
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-position: center;
@@ -79,6 +93,10 @@ header{
   height: 500px;
 }
 
+.Third-container h2{
+  text-align: center;
+}
+
 .locations{
   width: 300px;
   margin:15px; 40px;
@@ -89,4 +107,9 @@ header{
 .Contact{
   text-align: center;
   height: 200px;
+}
+
+.Copyright{
+  margin-left: 20px;
+  text-align: left;
 }
