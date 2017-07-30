@@ -99,6 +99,7 @@ nav{
 
 .location{
   display: flex;
+  flex-direction: row;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-position: center;
   margin: 0 auto;
@@ -112,17 +113,28 @@ nav{
 
 .local-text{
   display: block;
+  flex-direction: column;
 }
 
 .locations{
+  display: flex;
+  flex-direction: column;;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  opacity:1;
   width: 300px;
+  height:290px;
   margin:15px 40px;
 }
 
 /*FOOTER*/
 
 .Contact{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   height: 200px;
 }
 
