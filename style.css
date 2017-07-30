@@ -58,9 +58,10 @@ nav{
 
 .Second-container{
   display: block;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
   width: 1000px;
   margin: 0 auto;
 }
@@ -71,14 +72,18 @@ nav{
 }
 
 .tea-list{
-  display: flex;
+  display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   width:1000px;
+  margin-top: 20px;
 }
 
 .tea-pic{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
   margin:0px 0px 10px 0px;
 }
 
