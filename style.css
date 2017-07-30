@@ -3,5 +3,29 @@
   font-family: Helvetica;
   color:seashell;
   background-color: black;
-  opacity:0.9;
+  /*opacity:0.9;*/
+}
+
+header{
+  border-bottom:1px solid seashell;
+}
+
+.First-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  /*background-position: center;*/
+  width:1200px;
+  height:700px;
+}
+
+.Mission{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
 }
