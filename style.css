@@ -4,12 +4,15 @@
   color:seashell;
   font-size: 22px;
   background-color: black;
+  /*text-align: center;*/
   /*opacity:0.9;*/
 }
 
 header{
   border-bottom:1px solid seashell;
 }
+
+/*MISSION*/
 
 .First-container{
   display: flex;
@@ -32,11 +35,58 @@ header{
   width: 1200px;
 }
 
+/*LIST OF TEAS*/
+
 .Second-container{
-  display: flex;
-  flex-direction: column;
+  display: block;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 1000px;
   margin: 0 auto;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tea-list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   width:1000px;
+}
+
+.tea-pic{
+  margin-bottom:10px;
+}
+
+/*LOCATIONS*/
+
+.Third-container{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+  width:1200px;
+  height: 500px;
+}
+
+.locations{
+  width: 300px;
+  margin:15px; 40px;
+}
+
+/*FOOTER*/
+
+.Contact{
+  text-align: center;
+  height: 200px;
 }
